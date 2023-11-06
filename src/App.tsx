@@ -1,13 +1,11 @@
 import React from "react";
-
-import WrappedComponent from "./components/WrappedComponent";
-import WrapperComponent from "./components/WrapperComponent";
+import HomePage from "./components/pages/HomePage/HomePage";
 
 const App: React.FC = () => {
   return (
-    <WrapperComponent className="my-custom-wrapper">
-      <WrappedComponent />
-    </WrapperComponent>
+    <div>
+      <HomePage />
+    </div>
   );
 };
 
